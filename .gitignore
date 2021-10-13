@@ -11,6 +11,10 @@ lerna-debug.log\*
 
 report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
+#bulit
+\*.png
+
+
 # Runtime data
 
 pids
@@ -49,6 +53,8 @@ build/Release
 
 # Dependency directories
 
+build/
+dist/
 node_modules/
 jspm_packages/
 
@@ -135,4 +141,8 @@ dist
 
 .tern-port
 
-build/
+# OSX
+
+.DS_Store
+*.png
+
